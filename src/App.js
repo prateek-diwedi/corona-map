@@ -9,7 +9,7 @@ import "./App.scss";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 
-let token = process.env.MAPBOX_KEY;
+let token = process.env.REACT_APP_MAPBOX_KEY;
 console.log("token ------>", token)
 console.log("token 22 ------>", process.env)
 mapboxgl.accessToken = token;
