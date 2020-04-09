@@ -13,7 +13,8 @@ import "mapbox-gl/dist/mapbox-gl.css";
 // require('dotenv').config();
 
 let token = process.env.MAPBOX_KEY;
-
+console.log("token ------>", token)
+console.log("token 22 ------>", process.env.MAPBOX_KEY)
 mapboxgl.accessToken = token;
 
 
