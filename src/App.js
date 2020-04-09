@@ -15,7 +15,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 let token = process.env.REACT_APP_MAPBOX_KEY;
 
 mapboxgl.accessToken = token;
-console.log('mapbox token ---->>', token)
+
 
 function App() {
   const mapboxElRef = useRef(null) //DOM element to render map
