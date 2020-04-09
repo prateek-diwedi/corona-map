@@ -7,7 +7,6 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "country-code-lookup": "0.0.17",
-    "dotenv": "^8.2.0",
     "mapbox-gl": "^1.9.1",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
