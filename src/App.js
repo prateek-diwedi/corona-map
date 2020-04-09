@@ -12,7 +12,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 // env file
 // require('dotenv').config();
 
-let token = process.env.REACT_APP_MAPBOX_KEY;
+let token = process.env.MAPBOX_KEY;
 
 mapboxgl.accessToken = token;
 
