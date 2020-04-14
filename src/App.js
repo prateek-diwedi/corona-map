@@ -48,7 +48,8 @@ function App() {
   useEffect(() => {
     const map = new mapboxgl.Map({
       container: mapboxElRef.current,
-      style: "mapbox://styles/notalemesa/ck8dqwdum09ju1ioj65e3ql3k",
+      // style: "mapbox://styles/notalemesa/ck8dqwdum09ju1ioj65e3ql3k",
+      style: "mapbox://styles/prateek-diwedi/ck8zimvie0fp41iqmz8zzjk1q",
       center: [16, 27], // initial geo location,
       zoom: 2 // initial zoom
     });
