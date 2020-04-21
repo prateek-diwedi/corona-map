@@ -19,8 +19,8 @@
   
   /* Tooltip code */
   .mapboxgl-popup {
-    font-family: "Baloo Thambi 2", cursive;
-    font-size: 10px;
+    // font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 14px;
     padding: 0;
     margin: 0;
     color: #424242;
@@ -39,7 +39,7 @@
       border-bottom: 1px solid rgba(black, 0.2);
   
       b {
-        font-size: 1.6rem;
+        font-size: 1.0rem;
         color: #212121;
         padding: 0 5px;
       }
@@ -48,5 +48,6 @@
     img {
       width: 4rem;
       height: 4rem;
+      margin-left: 30%;
     }
   }
